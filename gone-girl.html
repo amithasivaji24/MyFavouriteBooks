@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon Souce: https://favicon.io/favicon-converter/-->
+    <link rel="icon" href="images/favicon.ico">
+    <title>Books</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+        <!--Logo Source: https://www.pexels.com/photo/books-768125/-->
+        <img src="images/logo.jpg" alt="Book Keep Logo">
+    </a>
+        <h1>Books - Amitha Sivaji - asivaji8549@conestogac.on.ca</h1>
+    </div>
+    <nav class="topnav">
+        <div class="dropdown">
+            <a href="index.html">Home</a>
+            <div class="dropdown-content">
+                <li><a href="index.html#benefits">Benefits</a></li>
+                <li><a href="index.html#significance">Significance</a></li>
+                <li><a href="index.html#discover-books">Discover</a></li>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="fault-in-our-stars.html">The Fault In Our Stars</a>
+            <div class="dropdown-content">
+                <li><a href="fault-in-our-stars.html#about">About</a></li>
+                <li><a href="fault-in-our-stars.html#author-bestsellers">Author's Bestsellers</a></li>
+                <li><a href="fault-in-our-stars.html#buy">Own/Gift a copy</a></li>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="girl-on-the-train.html">The Girl on the Train</a>
+            <div class="dropdown-content">
+                <li><a href="girl-on-the-train.html#about">About</a></li>
+                <li><a href="girl-on-the-train.html#author-bestsellers">Author's Bestsellers</a></li>
+                <li><a href="girl-on-the-train.html#buy">Own/Gift a copy</a></li>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="gone-girl.html">Gone Girl</a>
+            <div class="dropdown-content">
+                <li><a href="gone-girl.html#about">About</a></li>
+                <li><a href="gone-girl.html#author-bestsellers">Author's Bestsellers</a></li>
+                <li><a href="gone-girl.html#buy">Own/Gift a copy</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="overlay-container">
+        <img src="images/gone-girl-hero-image.jpg" alt="Gone Girl">
+        
+        <h3>Gone Girl</h3>
+    </div>
+    
+    <div id="about" class="text-video-section">
+        <div class="text-content">
+            <h2>About the book</h2>
+            <p>
+                Who are you?
+                What have we done to each other?
+                These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary when his wife Amy suddenly disappears. The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone.
+                <p>Watch the video for a quick review of the book!</p>
+            </p>
+        </div>
+        <div class="video-container">
+            <video controls poster="images/gone-girl-review.jpeg">
+            <!-- image source: https://girlplusbook.com/ya/mysthrill/review-girl-train/-->
+                <source src="media/gone-girl-review.mp4" type="video/mp4">
+                <!-- video source: https://www.youtube.com/watch?v=KwLnw965XDY-->
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <!-- Table source: https://en.wikipedia.org/wiki/Gillian_Flynn-->
+    <div id="author-bestsellers">
+    <table>
+        <caption>Other Bestsellers of Gillian Flynn</caption>
+        <thead>
+            <tr>
+                <th scope="col">Book Number</th>
+                <th scope="col">Date Published</th>
+                <th scope="col">Title</th>
+                <th scope="col">Type</th>
+                <th scope="col">Page Count</th>
+                </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>January 3, 2006</td>
+          <td>Sharp Objects</td>
+          <td>Novel</td>
+          <td>221</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>February 16, 2009</td>
+            <td>Dark Places</td>
+            <td>Novel</td>
+            <td>305</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>September 21, 2014</td>
+            <td>The Grownup</td>
+            <td>Short Story</td>
+            <td>229</td>
+        </tr>
+    </tbody>
+      </table>
+    </div>
+      <div id="buy" class="form-title">Gift yourself a copy of Gone Girl!</div>
+      <form action="#" method="post">
+        <div class="form-section">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Select Book Category</legend>
+                <div class="form-group">
+                    <label for="options">Choose an option to buy:</label>
+                    <select id="options" name="options" required>
+                        <option value="select">Select</option>
+                        <optgroup label="Online">
+                            <option value="option1">Amazon</option>
+                            <option value="option2">eBay</option>
+                            <option value="option3">Walmart</option>
+                        </optgroup>
+                        <optgroup label="In-store pickup">
+                            <option value="option4">Indigo</option>
+                            <option value="option5">Book Outlet</option>
+                            <option value="option6">Best Book Store</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Personalized Message</legend>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Contact Preferences</legend>
+                <div class="form-group">
+                    <label>Choose all that apply:</label>
+                    <br>
+                    <input type="checkbox" id="checkbox1" name="checkbox[]" value="option1">
+                    <label for="checkbox1">Receive updates via Email</label>
+                    <br>
+                    <input type="checkbox" id="checkbox2" name="checkbox[]" value="option2">
+                    <label for="checkbox2">Receive updates via Phone</label>
+                    <br>
+                    <input type="checkbox" id="checkbox3" name="checkbox[]" value="option3">
+                    <label for="checkbox3">Receive no updates</label>
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Preferred Book Type</legend>
+                <div class="form-group">
+                    <label>Select one:</label>
+                    <br>
+                    <input type="radio" id="radio1" name="radio" value="option1">
+                    <label for="radio1">Hardcover</label>
+                    <br>
+                    <input type="radio" id="radio2" name="radio" value="option2">
+                    <label for="radio2">Paperback</label>
+                </div>
+            </fieldset>
+    
+            <div class="form-buttons">
+                <button class="reset-btn" type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="columns">
+            <div class="column">
+                <h3>The Fault In Our Stars</h3>
+                <ul>
+                    <li><a href="fault-in-our-stars.html#about">About</a></li>
+                    <li><a href="fault-in-our-stars.html#author-bestsellers">Author's Bestsellers</a></li>
+                    <li><a href="fault-in-our-stars.html#buy">Own/Gift a copy</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>The Girl on the Train</h3>
+                <ul>
+                    <li><a href="girl-on-the-train.html#about">About</a></li>
+                    <li><a href="girl-on-the-train.html#author-bestsellers">Author's Bestsellers</a></li>
+                    <li><a href="girl-on-the-train.html#buy">Own/Gift a copy</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Gone Girl</h3>
+                <ul>
+                    <li><a href="gone-girl.html#about">About</a></li>
+                    <li><a href="gone-girl.html#author-bestsellers">Author's Bestsellers</a></li>
+                    <li><a href="gone-girl.html#buy">Own/Gift a copy</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© Amitha Sivaji - asivaji8549@conestogac.on.ca.</p>
+    </div>
+</footer>
+</html>
